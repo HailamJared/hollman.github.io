@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+          * {font-family:Perpetua, Verdana, sans-serif; color: #665544;}
+            input {border-bottom: 1px dotted #dcdcdc; 
+                border-top: none;
+                border-right: none; 
+                border-left: none; 
+                padding: 5px;
+                width: 280px; 
+                margin-bottom:29px;} 
+            input:focus { border: 1px dotted #dcdcdc; outline: none;}
+            input#submit { color: #ffffff; 
+                        background-color: #665544; 
+                        border: none; 
+                        border-radius: 5px;
+                        width: 80px;}
+            input#submit:hover {color: #665544; background-color: #efefef;}
+            fieldset { width: 350px; 
+                border: 1px solid #dcdcdc; 
+                border-radius: 10px; 
+                padding: 20px; 
+                text-align: center;}     
+            legend {background-color: #efefef; 
+                border: 1px solid #dcdcdc; 
+                border-radius: 10px; 
+                padding: 10px 20px;
+                text-align: center;
+                text-transform: uppercase;} 
+                h1 {
+            border: 2px solid #e7642c;
+            padding: 10px;
+            line-height: 2em; }   
+        </style>
+    </head> 
+    
+    <body  align="center">
+    </head>
+    <link rel="shortcut icon" href="./images/icono.jpg">
+        <h1>TIPOS DE FORMULARIOS</h1>
+        <P>Aqui veras como se puede desarrollar un formulario de cualquier denominacion</P>
+        <form action="http://www.example.com/subscribe.php">
+        <fieldset>
+            <legend align="center">Datos de contacto</legend>
+            <label>Email:<br  /><input type="text"  name="email"  /></label><br />
+            <label>Telefono movil:<br /><input type="text" name="mobile"  /></label><br  />
+            <label>Telefono fijo:<br /><input type="text"  name="telephone"  /></label><br  />
+            <form> 
+                <fieldset>
+                    <legend>Boletin </legend> 
+                    <label for="name">Nombre: </label><input type="text" id="name" />
+                    <label for="email">Email: </label><input type="text" id="email" />
+                    <input type="submit" value="Suscribete" id="submit" /> 
+                </fieldset>
+            </style>
+            <title>Grouping Form Elements</title>
+        
+    </form>
+    <br  />
+   
+        <form action="http://www.example.om/login/" method="post">
+        <label for="username">Username</label> <br  />
+    <input type="text"  name="username"  id="username" required="required"  /> 
+    <br  />
+<label for="password">Password</label><br  />
+<input type="password" name="password"  id="password" required="requires"  />
+<input type="submit" value="submit"  />
+</form> 
+<br  />
+<form action="http://www.example.com/subscibe.php">
+    <p>Suscribete a nuestra lista de correo electronico:</p>
+<input type="text" name="email"  />
+<input type="submit"  name="subscribe" value="subscribe"  />
+</form>
+<br  />
+<form action="http:www.example.com/comments.php">
+    <p>Deja tus comentarios referentes al proyecto</p>
+<textarea name="comments" cols="20" rows="4"> Ingrese sus comentarios...</textarea>
+</form>
+</fieldset>
+<p><a href="../index.html">inicio</a></p>
+    </body>
+</html>

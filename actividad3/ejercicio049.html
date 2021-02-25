@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta cgarset="utf-8">
+    <title>ejemplo 049</title>
+    <script language="javascript" type="text/javascript">
+        var a=prompt("ingrese un año(aaaa): ");
+        a=Number(a)
+        var m=prompt("ingrese un mes: ");
+        m=Number(m)
+
+        switch(m) {
+
+            case 1: 
+               d=31;
+               ml="enero";
+               break;
+            case 2: 
+               if(a%4==0&&(a%100!=0||a%400==0))
+                 d=29;
+                else 
+                  d=28;
+                ml="febrero";
+                break;
+            case 3: 
+                 d=321;
+                 ml="marzo";
+                 break;
+            case 4:
+                d=30;
+                ml="abril";
+                break;
+            case 5: 
+                d=31;
+                ml="mayo";
+            case 6: 
+                d=30;
+                ml="junio";
+                break;
+            case 7: 
+                d=31;
+                ml="julio";
+                break;
+            case 8: 
+               d=31;
+               ml="agosto";
+               break;
+            case 9: 
+               d=30;
+               ml="septiembre";
+               break;
+            case 10: 
+               d=31;
+               ml="octubre";
+               break;
+            case 11: 
+               d=30;
+               ml="noviembre";
+               break;
+            case 12: 
+                d=31;
+                ml="diciembre";
+                break;
+        }
+        alert('mes: ' + ml + 'dia: '+d);
+        </script>
+        </head>
+        <body>
+            <p>parrafo ejercicio 049</p>
+            <p>
+                programa en javascript para devolver la cantidad de dias del mes
+
+            </p>
+        </body>
+        </html>
